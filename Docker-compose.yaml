@@ -1,0 +1,9 @@
+version: "3.8"
+
+services:
+  redis:
+    image: bitnami/redis
+    environment:
+      - REDIS_PASSWORD=password123
+    ports:
+      - 6379:6379
